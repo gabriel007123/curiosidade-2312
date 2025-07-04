@@ -49,15 +49,22 @@ nav ul li a:hover {
   text-align: center;
   background-color: #f9f9f9;
  }
- .galeria {
+ .galeria a {
   text-decoration: none;
   color: black;
  }
- .galeria{
+ .galeria img {
     width: 250px;
     height: 250px;
     border-radius: 10px;
-    
+    transition: transform 0.3s ease;
+ }
+ .galeria img:hover {
+  transform: scale(1.05);
+ }
+ .manchete {
+    margin-top: 10px;
+    font-weight: bold;
  }
 
 main {
